@@ -12,7 +12,6 @@
         table {
             border-collapse: collapse;
             width: 600px;
-            font-weight: bold;
         }
 
         td {
@@ -20,18 +19,22 @@
             padding: 7px;
             text-align: center;
         }
+
+        .destaque {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <h1>Nomes e Filmes</h1>
     <table>
         <tr>
-            <td>Grupo</td>
-            <td>Nomes</td>
-            <td colspan="3">Filmes</td>
+            <td class="destaque">Grupo</td>
+            <td class="destaque">Nomes</td>
+            <td colspan="3" class="destaque">Filmes</td>
         </tr>
         <tr>
-            <td rowspan="3">Mulheres</td>
+            <td rowspan="3" class="destaque">Mulheres</td>
             <td>Ana Maria Santos</td>
             <td>Alien</td>
             <td>Rambo</td>
@@ -50,7 +53,7 @@
             <td>Big Hero</td>
         </tr>
         <tr>
-            <td rowspan="3">Homens</td>
+            <td rowspan="3" class="destaque">Homens</td>
             <td>Bruno Mendoça</td>
             <td>Intocáveis</td>
             <td>Amnésia</td>
